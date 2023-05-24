@@ -101,7 +101,7 @@ console.log(birthday);
 letBirthdayObj = new Date(birthday);
 let ageDiffMill = Date.now() - birthdayObj;
 let ageDate = new Date(ageDiffMill);
-let ageYear = ageDate.getUTCFullYear() - 1970
+let ageYears = ageDate.getUTCFullYear() - 1970
 let ageMonth = ageDate.getUTCMonth();
 let ageDay = ageDate.getUTCDay();
 //DISPLAY EVERYTHING
